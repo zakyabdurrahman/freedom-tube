@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1ff;
+    overflow: hidden;
+}
+
+
+#title-container{
+    display: flex;
+    width: 375px;
+    margin: auto;
+}
+#logo-container{
+    flex-grow: 0;
+}
+
+#logo{
+    margin: auto;
+    margin-top: 16px;
+    display: block;
+    
+   
+}
+
+#header{
+    font-family: 'Beau Rivage', cursive;
+    text-align: center;
+    font-size: 56px;
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+.content{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
