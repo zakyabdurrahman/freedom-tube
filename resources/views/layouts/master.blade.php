@@ -15,14 +15,14 @@
 <body>
     <div id="title-container">
         <div id="logo-container">
-            <img id="logo" src="{{asset('img/eagle 200 yt.png')}}" alt="">
+            <img id="logo" src="{{asset('img/eagle 200 yt.png'), true}}" alt="">
         </div>
         
         <h1 id="header">Freedom Tube</h1>
     </div>
     <div class="text-box">
-        <h5 class="content">Download music and audio from youtube, for free and without ads. We bring liberation
-            from copyright holders and class enemies
+        <h5 class="content">Download music and audio from youtube, for free and without ads. We bring 
+            freedom for you to enjoy music beyond legal and state boundaries
         </h5>
     </div>
     
