@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'MainController@home');
+Route::post('/download', 'MainController@download');
