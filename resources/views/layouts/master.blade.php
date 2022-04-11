@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Freedom Tube</title>
-    <link rel="stylesheet" href="{{asset("css/styles.css")}}">
+    <link rel="stylesheet" href="{{asset("css/styles.css", true)}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/658f22aaa7.js" crossorigin="anonymous"></script>
