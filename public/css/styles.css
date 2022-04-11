@@ -44,6 +44,12 @@ button{
     
 }
 
+.content-bold{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 .input-container{
     display: flex;
     justify-content: center;
@@ -69,4 +75,9 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+
+.text-box{
+    width: 600px;
+    margin: auto;
 }

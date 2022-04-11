@@ -13,3 +13,4 @@
 
 Route::get('/', 'MainController@home');
 Route::post('/download', 'MainController@download');
+Route::get('/download', 'MainController@goback');

@@ -20,9 +20,12 @@
         
         <h1 id="header">Freedom Tube</h1>
     </div>
-    <h5 class="content">Download music and audio from youtube, for free and without ads. We bring liberation
-        from copyright holders and class enemies
-    </h5>
+    <div class="text-box">
+        <h5 class="content">Download music and audio from youtube, for free and without ads. We bring liberation
+            from copyright holders and class enemies
+        </h5>
+    </div>
+    
     
     @yield('content')
 </body>
