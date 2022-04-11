@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Helpers\Utils;
 use Illuminate\Http\Request;
 use YouTube\YouTubeDownloader;
 use YouTube\Exception\YouTubeException;
@@ -18,11 +19,12 @@ class MainController extends Controller
         $youtubeUrl = $request['url'];
         try {
             $downloadOptions = $youtube->getDownloadLinks($youtubeUrl);
+            $linksCollection = $downloadOptions->getAllFormats();
             //need to make helper function to filter only audio links, maybe set up a class
             $videoDetails = $downloadOptions->getInfo();
             $videoTitle = $videoDetails->getTitle();
             //return view('download', compact('downloadOptions'));
-            dd($videoDetails->getTitle()); 
+            dd($linksCollection); 
         } catch (YouTubeException $e) {
             return redirect('/');
         }
