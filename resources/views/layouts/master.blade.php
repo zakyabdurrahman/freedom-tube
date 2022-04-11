@@ -15,7 +15,7 @@
 <body>
     <div id="title-container">
         <div id="logo-container">
-            <img id="logo" src="{{asset('img/eagle 200 yt.png', true)}}" alt="">
+            <img id="logo" src="{{asset('img/eagle 200 yt.png'), true}}" alt="">
         </div>
         
         <h1 id="header">Freedom Tube</h1>
