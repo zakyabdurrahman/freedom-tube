@@ -27,7 +27,7 @@ class MainController extends Controller
             $videoDetails = $downloadOptions->getInfo();
             $videoTitle = $videoDetails->getTitle();
             return view('download', compact('videoTitle', 'audios'));
-            //dd($linksCollection, $audioLinks); 
+            //dd($linksCollection, $audios); 
         } catch (YouTubeException $e) {
             return redirect('/');
         }
